@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Iniciar sesión — VapeStore</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><a href="index.html" class="logo">VapeStore</a></div>
+  </header>
+
+  <main class="auth container">
+    <h1>Iniciar sesión</h1>
+
+    <form id="login-form" method="post" novalidate>
+      <label for="login-email">Correo electrónico</label>
+      <input type="email" id="login-email" name="login-email" required />
+
+      <label for="login-password">Contraseña</label>
+      <input type="password" id="login-password" name="login-password" required />
+
+      <button type="submit" class="btn primary">Iniciar sesión</button>
+    </form>
+
+    <p>¿No tenés cuenta? <a href="registro.html">Registrate aquí</a></p>
+    <p><a href="index.html">Volver a inicio</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div><small>&copy; <span id="year"></span> VapeStore</small></div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
