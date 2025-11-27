@@ -33,7 +33,7 @@ const products = [
     id: 'p4',
     name: 'Lost Angel – Pro Max',
     price: 34.0,
-    image: 'assets/images/stealth-pod.jpg',
+    image: 'assets/images/lost-angel.jpg',
     description: 'Vaper descartable de alto rendimiento, con sabor intenso y larga duración..',
     stock: 12
   },
@@ -47,9 +47,9 @@ const products = [
   },
   {
     id: 'p6',
-    name: 'Vape Ignite',
+    name: 'Ignite',
     price: 41,
-    image: 'assets/images/vape-accessory.jpg',
+    image: 'assets/images/ignite.jpg',
     description: 'Pod descartable potente, con excelente autonomía y sabor a tabaco bien equilibrado.',
     stock: 18
   }
